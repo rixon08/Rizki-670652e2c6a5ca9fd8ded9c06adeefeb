@@ -15,7 +15,7 @@ class APIHelper {
       body: {
         'username': username,
         'password': password,
-        'loginTime': "121212",
+        'loginTime': loginTime.toString(),
       },
     );
     return response;
